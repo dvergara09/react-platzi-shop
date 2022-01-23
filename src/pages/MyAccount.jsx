@@ -3,7 +3,7 @@ import '../styles/MyAccount.scss'
 
 const MyAccount = () => {
   return (
-    <div className="MyAccount-login">
+    <div className="MyAccount">
       <div className="MyAccount-container">
         <h1 className="title">My account</h1>
 
