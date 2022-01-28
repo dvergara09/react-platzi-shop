@@ -1,11 +1,12 @@
 import React from 'react'
-import '../styles/EmailSend.scss'
+import '@styles/EmailSend.scss'
+import logo from '@logos/logo_yard_sale.svg'
 
 const EmailSend = () => {
   return (
     <div className="EmailSend">
       <div className="EmailSend-container">
-        <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
+        <img src={logo} alt="logo" className="logo" />
 
         <h1 className="title">Email has been sent!</h1>
         <p className="subtitle">
